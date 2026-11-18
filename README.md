@@ -18,3 +18,7 @@ pip install pytest && pytest -v   # 跑测试
 
 WorkBuddy（薛雨肖）生成，用于验证「WorkBuddy 写代码 → 推 GitHub → Codex 拉取验证」链路。
 代码故意保持简单，欢迎 review：关注边界条件（负数 token、缓存超过输入、discount 越界）是否处理正确。
+
+## 协作规则
+
+本仓库的项目边界见 [AGENTS.md](AGENTS.md)，通用规则版本入口见 [AI_PROJECT_COLLABORATION.md](docs/AI_PROJECT_COLLABORATION.md)。执行任务前核对当前 ref 与实际采用版本；本仓库既有的“不自动合并”限制继续有效。
