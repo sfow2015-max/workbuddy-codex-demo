@@ -1,8 +1,10 @@
 # AI 软件项目协作规则入口
 
-当前维护版本：**V3.4（2026-11-18）**。
+当前维护版本为 **V3.5（2026-11-26 修订）**。Windows 工作台同时采用下列启动规则。
 
-- [V3.4 完整规则](AI_PROJECT_COLLABORATION_V3.4.md)：任务直传 GitHub、凭据安全复用、连续执行和集中交接，保留既有最小回归与权限边界。
+- [V3.5 完整规则](AI_PROJECT_COLLABORATION_V3.5.md)：真实数据与合成数据双轨、跨项目授权隔离、检查点恢复、瞬时网络重试、GPT API/MCP 分层验收和持续复盘。本次修订补充 Windows 桌面入口、在线问答分步验收、套餐用量归属和可复制的 Codex 指令。
+- [Windows 工作台日常启动与验收](WINDOWS_WORKBENCH_STARTUP.md)（2026-11-25 补充）。适用于后续新建或更新的 Windows 工作台。
+- [V3.4 历史版本](AI_PROJECT_COLLABORATION_V3.4.md)：GPT API 默认架构、简化流程、凭据安全复用与集中交接。
 - [V3.3 历史版本](AI_PROJECT_COLLABORATION_V3.3.md)：保留供历史任务追溯。
 
 本文件是版本入口，不另存一份规则全文。执行方需核对实际 ref、适用 AGENTS.md 和当前任务；尚未合并的版本使用已回读分支或固定提交，不假定 main 已更新。具体仓库的合并、正式部署和资料范围限制继续有效。
